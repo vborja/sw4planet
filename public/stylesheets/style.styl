@@ -3,10 +3,21 @@ body
 a
   color: #00B7FF
 
+left:
+  float:left
+right:
+  float:right
 
 .brand
   img.sw
     height: 30px
+
+.hero-unit.about
+  padding: 10px
+  color: #ff60bb
+
+  > p
+    font-size: 20px
 
 .swlogo
   width: 100%
@@ -37,47 +48,173 @@ section#landing
 
 
 section#come
-  height: 600px
-  background-color: #ccddee
+  height: 2100px
+  background-color: #fbfbfb
+  -moz-border-radius: 5px
+  border-radius: 5px
 
-section#program
-  height: 600px
+  .come-here
+    color: white
+    background-color: #5fa0ff
+    padding: 20px
+    -moz-border-radius: 15px
+    border-radius: 15px
+    text-align: center
+    position: relative
+
+    a h1
+     color: black
+    .btn-action
+      width: 80%
+      font-size: 20px
+
 
 .dude
   background-image: url('/images/dude.png')
-  width: 73px
-  height: 15px
-  font-size: 12px
-  padding-top: 100px
-  padding-left: 10px
+  width: 80px
+  height: 115px
+  margin-left: 20px
 
 .dude.designer
   background-color: red
 
 .are-you
-  background-color: #dededd
-  height: 1200px
-  font-size: 90px
+  font-size: 80px
 
   .hero-unit
     font-size: 40px
 
+  .you span
+    font-size: 150px
 
 .relative
   position: relative
 
-.an
-  background-color: #cceecc
+.span4.an
   height: 400px
   width: 500px
+  -moz-border-radius: 15px
+  border-radius: 15px
+
+.an > h1
+  padding: 20px
+  font-size: 60px
+  line-height: 62px
+  text-align: center
+
+.an > h2
+  padding-left: 20px
+  text-align: center
+
 .an.designer
   top: 0px
+  color: white
+  background-color: #F21377
 .an.programmer
   top: -400px
+  color: black
+  background-color: #69D2E7
 .an.business
   top: -400px
+  color: white
+  background-color: #F7695C
 .an.changer
   top: -800px
+  color: white
+  background-color: #3DE5AE
 
 body
   height: 10000px
+
+section#program
+
+  section
+    height: 700px
+    width: 1240px
+    .day
+      position: absolute
+
+  section.friday
+    .day
+      left: -150px
+      top: 250px
+
+  section.saturday
+    .day
+      left: 700px
+      top: 200px
+
+  section.sunday
+    .day
+      left: -250px
+      top: 250px
+
+
+  h1.day
+    padding-top: 50px
+    padding-left: 50px
+    left: -250px
+    color: #cccccc
+    font-size: 100px
+    height-min: 800px
+    left: 0px
+    text-align: left
+
+  .rotate
+    -webkit-transform: rotate(-90deg)
+    -moz-transform: rotate(-90deg)
+    -ms-transform: rotate(-90deg)
+    -o-transform: rotate(-90deg)
+
+  .rotater
+    -webkit-transform: rotate(90deg)
+    -moz-transform: rotate(90deg)
+    -ms-transform: rotate(90deg)
+    -o-transform: rotate(90deg)
+
+  .cards
+    margin-left: 200px
+    margin-top: 50px
+
+  .cardsr
+    margin-right: 200px
+    margin-top: 50px
+
+
+  .card
+    -moz-border-radius: 5px
+    border-radius: 5px
+    height: 200px
+    margin: 10px
+    color: white
+    padding: 15px
+
+  .card.meet
+    background-color:#4ECDC4
+  .card.share
+    background-color:#C7F464
+  .card.team
+    background-color:#FF6B6B
+  .card.work
+    background-color:#C44D58
+
+  .card.validate
+    background-color:#4ECDC4
+  .card.build
+    background-color:#FF6B6B
+  .card.mentor
+    background-color:#C44D58
+
+
+  .card.finish
+    background-color:#C44D58
+  .card.judge
+    background-color:#4ECDC4
+  .card.pitch
+    background-color:#C7F464
+  .card.win
+    background-color:#FF6B6B
+    height: 300px
+
+
+

@@ -4,8 +4,17 @@ body {
 a {
   color: #00b7ff;
 }
+left:float:left img.sw,
+right:float:right img.sw,
 .brand img.sw {
   height: 30px;
+}
+.hero-unit.about {
+  padding: 10px;
+  color: #ff60bb;
+}
+.hero-unit.about > p {
+  font-size: 20px;
 }
 .swlogo {
   width: 100%;
@@ -35,51 +44,175 @@ section#landing .row-fluid {
   margin-top: 30px;
 }
 section#come {
-  height: 600px;
-  background-color: #cde;
+  height: 2100px;
+  background-color: #fbfbfb;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
-section#program {
-  height: 600px;
+section#come .come-here {
+  color: #fff;
+  background-color: #5fa0ff;
+  padding: 20px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+}
+section#come .come-here a h1 {
+  color: #000;
+}
+section#come .come-here .btn-action {
+  width: 80%;
+  font-size: 20px;
 }
 .dude {
   background-image: url("/images/dude.png");
-  width: 73px;
-  height: 15px;
-  font-size: 12px;
-  padding-top: 100px;
-  padding-left: 10px;
+  width: 80px;
+  height: 115px;
+  margin-left: 20px;
 }
 .dude.designer {
   background-color: #f00;
 }
 .are-you {
-  background-color: #dededd;
-  height: 1200px;
-  font-size: 90px;
+  font-size: 80px;
 }
 .are-you .hero-unit {
   font-size: 40px;
 }
+.are-you .you span {
+  font-size: 150px;
+}
 .relative {
   position: relative;
 }
-.an {
-  background-color: #cec;
+.span4.an {
   height: 400px;
   width: 500px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.an > h1 {
+  padding: 20px;
+  font-size: 60px;
+  line-height: 62px;
+  text-align: center;
+}
+.an > h2 {
+  padding-left: 20px;
+  text-align: center;
 }
 .an.designer {
   top: 0px;
+  color: #fff;
+  background-color: #f21377;
 }
 .an.programmer {
   top: -400px;
+  color: #000;
+  background-color: #69d2e7;
 }
 .an.business {
   top: -400px;
+  color: #fff;
+  background-color: #f7695c;
 }
 .an.changer {
   top: -800px;
+  color: #fff;
+  background-color: #3de5ae;
 }
 body {
   height: 10000px;
+}
+section#program section {
+  height: 700px;
+  width: 1240px;
+}
+section#program section .day {
+  position: absolute;
+}
+section#program section.friday .day {
+  left: -150px;
+  top: 250px;
+}
+section#program section.saturday .day {
+  left: 700px;
+  top: 200px;
+}
+section#program section.sunday .day {
+  left: -250px;
+  top: 250px;
+}
+section#program h1.day {
+  padding-top: 50px;
+  padding-left: 50px;
+  left: -250px;
+  color: #ccc;
+  font-size: 100px;
+  height-min: 800px;
+  left: 0px;
+  text-align: left;
+}
+section#program .rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+section#program .rotater {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+section#program .cards {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+section#program .cardsr {
+  margin-right: 200px;
+  margin-top: 50px;
+}
+section#program .card {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin: 10px;
+  color: #fff;
+  padding: 15px;
+}
+section#program .card.meet {
+  background-color: #4ecdc4;
+}
+section#program .card.share {
+  background-color: #c7f464;
+}
+section#program .card.team {
+  background-color: #ff6b6b;
+}
+section#program .card.work {
+  background-color: #c44d58;
+}
+section#program .card.validate {
+  background-color: #4ecdc4;
+}
+section#program .card.build {
+  background-color: #ff6b6b;
+}
+section#program .card.mentor {
+  background-color: #c44d58;
+}
+section#program .card.finish {
+  background-color: #c44d58;
+}
+section#program .card.judge {
+  background-color: #4ecdc4;
+}
+section#program .card.pitch {
+  background-color: #c7f464;
+}
+section#program .card.win {
+  background-color: #ff6b6b;
+  height: 300px;
 }
